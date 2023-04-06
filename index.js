@@ -9,7 +9,7 @@
 
   function render(vm, options) {
     const editLink = '<a href="' + options.editBase + "/" + vm.route.file + '">' + options.title + "</a>";
-    return '<div style="overflow: auto"><p style="float: right">' + options.template.replace("{edit}", editLink) + "</p></div>";
+    return '<div style="overflow: auto;float: right;"><p>' + options.template.replace("{edit}", editLink) + "</p></div>";
   }
 
   function plugin(hook, vm) {
