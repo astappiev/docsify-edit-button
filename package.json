@@ -1,0 +1,19 @@
+{
+  "name": "docsify-edit-button",
+  "version": "1.0.0",
+  "description": "Suggest an Edit plugin for Docsify",
+  "author": "Oleh Astappiev",
+  "homepage": "https://github.com/astappiev/docsify-edit-button",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/astappiev/docsify-edit-button.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "docsify serve test"
+  },
+  "bugs": {
+    "url": "https://github.com/astappiev/docsify-edit-button/issues"
+  },
+  "license": "MIT"
+}
