@@ -1,4 +1,4 @@
-# docsify-edit-button
+# docsify-edit-btn
 
 A plugin for docsify to add a `Suggest an edit` button on every page, which links to GitHub repository or whenewer else.
 
@@ -7,7 +7,7 @@ A plugin for docsify to add a `Suggest an edit` button on every page, which link
 Add the plugin to `index.html` via a CDN or any other way, e.g.:
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/docsify-edit-button"></script>
+<script src="https://cdn.jsdelivr.net/npm/docsify-edit-btn"></script>
 ```
 
 ## Usage
@@ -21,7 +21,7 @@ Add javasript to `index.html`, and you can modify the content of the text field 
       title: "Suggest an Edit",
       template: "Last modified {docsify-updated}, {edit}",
       formatUpdated: "{DD}.{MM}.{YYYY}",
-      editBase: "https://github.com/astappiev/docsify-edit-button/edit/main",
+      editBase: "https://github.com/astappiev/docsify-edit-btn/edit/main",
       position: "top", // "top" or "bottom", default to "top"
     },
   };
